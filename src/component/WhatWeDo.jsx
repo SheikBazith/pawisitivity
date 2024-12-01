@@ -15,8 +15,8 @@ export default function WhatWeDo() {
             <p>Change lives one penny at a time</p></div>
         </div>
 
-        <div className='adopt-box flex-1 flex flex-col justify-between items-center  h-[60vh]'>
-        <div className='flex flex-col place-items-center mt-24 text-center'>
+        <div className='adopt-box flex-1 flex flex-col justify-between items-center h-[60vh]'>
+        <div className='flex flex-col place-items-center  text-center'>
         <h5 className='text-[2.5rem]'>Adopt Now!!!</h5>
             <p>There are many wonderful pets
             waiting for you to take them
