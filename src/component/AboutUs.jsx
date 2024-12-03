@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 export default function AboutUs() {
   return (
@@ -10,7 +11,8 @@ export default function AboutUs() {
                 Since 2010, we have been creating a safe haven where every
                 animal receives the love, respect, and medical care they 
                 deserve.</p>
-                <button className='know-btn w-[100px]'>Know More</button>
+                <button className='know-btn w-[100px]'>
+                <NavLink to='/about'>Know More</NavLink></button>
         </div>
         <img className='md:w-[35%] rounded-xl' src='images/random-img.png'/>
     </div>

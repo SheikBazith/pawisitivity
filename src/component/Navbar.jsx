@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 export default function Navbar() {
   return (
@@ -9,8 +10,8 @@ export default function Navbar() {
         </div>
         <div>
             <ul className='flex hidden lg:flex gap-5 items-center'>
-                <li>Home</li>
-                <li>About</li>
+                <NavLink to={"/"} ><li>Home</li></NavLink>
+                <NavLink to={"/about"} ><li>About</li></NavLink>
                 <li>Gallery</li>
                 <li>Contact</li>
                 <li><button>Adopt Now!</button></li>

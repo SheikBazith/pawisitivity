@@ -1,32 +1,30 @@
 import logo from './logo.svg';
 import './App.css';
-import Navbar from './component/Navbar';
-import Homepage from './component/Homepage';
-import AboutUs from './component/AboutUs';
-import Numbers from './component/Numbers';
-import WhatWeDo from './component/WhatWeDo';
-import Choose from './component/Choose';
-import Scope from './component/Scope';
-import Gallery from './component/Gallery';
-import Blogs from './component/Blogs';
-import Newsletter from './component/Newsletter';
-import Footer from './component/Footer';
+
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import AppLayout from './component/AppLayout';
+import AboutUsRoute from './component/route-pages/AboutUsRoute';
+import Main from './component/Main';
 
 function App() {
+
+  const router = createBrowserRouter([
+    {
+      path: '/',
+      element: <AppLayout />,
+      children: [{
+        path: "/",
+        element: <Main />
+      },
+    {
+      path:"about",
+      element: <AboutUsRoute />
+    }]
+    }
+  ]);
   return (
-    <div className="App flex flex-col">
-     <Navbar />
-     <Homepage />
-     <AboutUs />
-     <Numbers />
-     <WhatWeDo />
-     <Choose />
-     <Scope />
-     <Gallery />
-     <Blogs />
-     <Newsletter />
-     <Footer />
-    </div>
+    <RouterProvider router={router} />
+    
   );
 }
 

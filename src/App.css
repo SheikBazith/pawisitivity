@@ -9,13 +9,13 @@ body {
     
 }
 
-.about, .blog, .choose, .gallery, .home-page, .nav-bar, .numbers, .scope, .what-we-do {
+.about, .blog, .choose, .gallery, .home-page, .nav-bar, .numbers, .scope, .what-we-do,.about-page {
     margin-left: 1rem;
     margin-right: 1rem;
 }
 
 @media (min-width: 1024px) {
-    .about, .blog, .choose, .gallery, .home-page, .nav-bar, .numbers, .scope, .what-we-do {
+    .about, .blog, .choose, .gallery, .home-page, .nav-bar, .numbers, .scope, .what-we-dom,.about-page {
         margin-left: 6rem;
         margin-right: 6rem;
     }
