@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Newsletter() {
   return (
-    <div className='newsletter bg-[#F6E6D6] flex flex-col lg:flex-row gap-9 justify-evenly items-center p-12 mt-6'>
+    <div className='newsletter bg-[#F6E6D6] flex flex-col lg:flex-row gap-9 justify-evenly items-center p-6 md:p-12 mt-6'>
 
         <div>
             <h4 className='text-5xl text-center'>Join our Newsletter</h4>
