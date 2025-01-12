@@ -8,6 +8,7 @@ import Scope from '../component/Scope';
 import Gallery from '../component/Gallery';
 import Blogs from '../component/Blogs';
 import Newsletter from '../component/Newsletter';
+import PutAdoption from './PutAdoption';
 
 export default function Main() {
   return (
@@ -19,6 +20,7 @@ export default function Main() {
       <Choose />
       <Scope />
       <Gallery />
+      <PutAdoption />
       <Blogs />
       <Newsletter />
     </div>

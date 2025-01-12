@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 export default function Gallery() {
   return (
@@ -10,7 +11,7 @@ export default function Gallery() {
         <img src='images/gallery/gallery-4.png'/>
         <img src='images/gallery/gallery-5.png'/>
         <img src='images/gallery/gallery-6.png'/>
-        <div className='gallery-box bg-[#FFA750] text-5xl flex justify-center items-center'><h4>View More</h4></div>
+        <NavLink className="w-[100%]" to="/gallery"><div className='gallery-box bg-[#FFA750] text-5xl flex justify-center items-center'><button>View More</button></div></NavLink>
     </div>
   )
 }

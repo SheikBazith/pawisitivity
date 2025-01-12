@@ -12,24 +12,21 @@ export default function Blogs() {
         <div className='blog-box'>
             <img src='images/blog-img/blog-1.png'/>
             <span>Fruits and Vegetables That You Can Feed Your Dogs</span>
-            <button>Read More</button>
+            <button className='read-now'>Read More</button>
         </div>
         <div className='blog-box'>
             <img src='images/blog-img/blog-2.png'/>
             <span>How Can You Train Cats? – A Quick Guide on how to train</span>
-            <button>Read More</button>
+            <button className='read-now'>Read More</button>
         </div>
         <div className='blog-box'>
             <img src='images/blog-img/blog-3.png'/>
             <span>Tips to Introduce Your New Cat to Your
             Old Cat</span>
-            <button>Read More</button>
+            <button className='read-now'>Read More</button>
         </div>
         </div>
 
-        <div className='grid place-content-center'>
-        <button className='know-btn w-[140px]'>View More Blogs</button>
-        </div>
     </div>
   )
 }

@@ -9,20 +9,19 @@ body {
     
 }
 
-.about, .blog, .choose, .gallery, .home-page, .nav-bar, .numbers, .scope, .what-we-do,.about-page {
+.list-nav {
+    transition: all 0.4s;
+
+}
+
+.list-nav:hover{
+    color: black;
+}
+
+.about, .blog, .choose, .gallery, .home-page, .nav-bar, .numbers, .scope, .what-we-do,.about-page,.contact,.adopt-now,.animal-adoption,.shelter-images  {
     margin-left: 1rem;
     margin-right: 1rem;
 }
-
-@media (min-width: 1024px) {
-    .about, .blog, .choose, .gallery, .home-page, .nav-bar, .numbers, .scope, .what-we-dom,.about-page {
-        margin-left: 6rem;
-        margin-right: 6rem;
-    }
-}
-
-
-
 
 h1{
     font-family: "Just Me Again Down Here";
@@ -38,6 +37,17 @@ li > button, .adopt-btn, .know-btn {
     background-color: black;
     padding: 0.6rem 0.4rem 0.6rem 0.4rem;
     font-family: "Inria Serif";
+}
+
+button {
+    transition: all 0.4s;
+
+}
+
+li > button:hover, .adopt-btn:hover, .know-btn:hover, .read-now:hover {
+    color: white;
+    background-color: rgb(44, 44, 44);
+    padding: 0.6rem 0.4rem 0.6rem 0.4rem;
 }
 
 .home-page{
@@ -58,6 +68,9 @@ color: #878585;}
 
 .adopt-box{
     background-color: #F6E6D6;
+    padding-top:2rem;
+    transition: all 0.4s;
+
 }
 
 
@@ -74,6 +87,15 @@ color: #878585;}
 .arrow-box {
     border: 1px solid black;
     padding: 0.5rem;
+    background-color: #FFA750;
+    transition: all 0.4s;
+
+}
+
+.arrow-box:hover {
+    border: 1px solid white;
+    padding: 0.8rem;
+    background-color: #fab773;
 }
 
 
@@ -100,6 +122,7 @@ span {
     color: white;
     size: 2rem;
     padding: 1rem;
+    font-family: "Koulen";
 }
 
 .gallery-box, .gallery > img, .blog-box{
@@ -151,6 +174,10 @@ span {
     .newsletter, .footer{
         padding-left: 6rem;
         padding-right: 6rem;
+    }
+    .about, .blog, .choose, .gallery, .home-page, .nav-bar, .numbers, .scope, .what-we-do,.about-page,.contact,.adopt-now,.animal-adoption,.shelter-images  {
+        margin-left: 6rem;
+        margin-right: 6rem;
     }
 }
 
