@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function Contact() {
   return (
-    <div className='contact flex justify-center m-4 gap-3'>
-    <div className=''>
+    <div className='contact flex flex-col md:flex-row justify-center m-4 gap-3'>
+    <div className='flex justify-center'>
     <img className='w-[400px]' src='/images/contact/contact-img.png'/>
     </div>
 
