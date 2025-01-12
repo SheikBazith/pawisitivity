@@ -158,7 +158,8 @@ span {
     border: 1px solid;
     color: transparent;
     font-family: "Inria Serif";
-    padding: 0.66rem 0.2rem 0.65rem 0.4rem;
+    padding: 0.66rem 0.2rem 0.65rem 0.6rem;
+    width: 100%;
 
 }
 
@@ -168,10 +169,11 @@ span {
     }
     
     .sub-place{
-        padding: 0.66rem 5.5rem 0.65rem 0.6rem;
+        padding: 0.66rem 0.5rem 0.6rem;
+        width: 100%;
 
     }
-    .footer{
+    .newsletter, .footer{
         padding-left: 6rem;
         padding-right: 6rem;
     }
