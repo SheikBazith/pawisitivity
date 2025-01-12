@@ -11,7 +11,6 @@ export default function Navbar() {
 
   
   return (
-<<<<<<< HEAD
     <div className='nav-bar flex flex-col lg:flex-row mt-6 place-content-between items-center gap-6'>
     <div className='flex items-center gap-36'>
         <NavLink to={'/'}><div className='flex justify-center items-center gap-4'>
@@ -28,20 +27,6 @@ export default function Navbar() {
                 <NavLink to={"/gallery"} ><li className='list-nav'>Gallery</li></NavLink>
                 <NavLink to={"/contact"}><li className='list-nav'>Contact</li></NavLink>
                 <NavLink to={"/adopt-now"}><li className='list-nav'><button>Adopt Now!</button></li></NavLink>
-=======
-    <div className='nav-bar flex mt-6 place-content-between items-center'>
-       <NavLink to={'/'}><div className='flex justify-center items-center gap-4'>
-            <img className='w-[63px]' src='images/pawsitivity 1.png'/>
-            <h1 className='text-5xl'>Pawsitivity</h1>
-        </div></NavLink>
-        <div>
-            <ul className='flex hidden lg:flex gap-5 items-center'>
-                <NavLink to={"/"} ><li>Home</li></NavLink>
-                <NavLink to={"/about"} ><li>About</li></NavLink>
-                <li>Gallery</li>
-                <li>Contact</li>
-                <li><button>Adopt Now!</button></li>
->>>>>>> ad25708e19ca647afd022e5bd3824ccd88f23135
             </ul>
         </div>
     </div>
