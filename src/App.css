@@ -9,6 +9,14 @@ body {
     
 }
 
+input, select, textarea{
+    color: #000000;
+    background-color: #ffffff;
+    
+}
+
+
+
 .list-nav {
     transition: all 0.4s;
 
@@ -156,7 +164,7 @@ span {
 
 .sub-place{
     border: 1px solid;
-    color: transparent;
+
     font-family: "Inria Serif";
     padding: 0.66rem 0.2rem 0.65rem 0.6rem;
     width: 100%;
